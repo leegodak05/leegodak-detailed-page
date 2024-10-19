@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 11px;
+    color: #333;
+}
+ul,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+/* header 시작 */
+#header_bg{
+    border-bottom: 0.5px solid #ccc;
+    margin-bottom: 10px;
+}
+#header{
+    width: 90%;
+    margin: 0 auto;
+    
+}
+.logo_in{
+    float: right;
+}
+.logo_in>ul>li{
+    float: left;
+}
+.logo_in>ul>li>a{
+    display: block;
+    padding: 3px 5px;
+}
+.header_wrap2{
+    text-align: center;
+}
+.header_wrap2>h1{
+    margin-left: 210px;
+}
+.header_wrap2>h1>a>img{
+    width: 20%;
+}
+.header_wrap3{
+    margin-bottom: 10px;
+    
+}
+.header_wrap3>ul{
+    display: flex;
+    justify-content: center;
+}
+.header_wrap3>ul>li>a{
+    display: block;
+    padding: 10px 15px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+/* container 시작 */
+#container{
+    width: 1400px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+
+}
+.right_wrap{
+    width: 65%;
+  display: flex;
+  justify-content: center;
+}
+.left_wrap{
+    position: sticky;
+    top: 30px;
+    width: 35%;
+    height: 95vh;
+    margin: 0 auto;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 0 0;
+   
+}
+.maintext{
+    margin-top: 30px;
+}
+table{
+    text-align: left;
+    margin: 20px 0;
+}
+td,  th{
+    padding: 5px;
+}
+.line{
+    text-decoration: line-through;
+}
+.select>table{
+    margin: 15px 0 2px 0;
+}
+.select{
+    border-top: 1px solid #999;
+    border-bottom: 1px solid #999;
+}
+.testtext{
+    padding-right: 50px;
+}
+select{
+    width: 300px;
+    padding: 5px 10px;
+    border: 1px solid #999;
+    color: #333;
+}
+.colspan{
+    color: #999;
+}
+.purchase{
+
+}
+.purchase>a{
+    display: inline-block;
+    width: 90px;
+    padding: 15px;
+    border: 1px solid #999;
+    margin: 10px 5px;
+}
+.purchase>a:nth-child(1){
+    background-color: rgb(255, 185, 128);
+    border: none;
+}
+.totalwrap>table{
+    margin: 0;
+}
+.totalwrap>table>tr>th{
+    text-align: right;
+}
